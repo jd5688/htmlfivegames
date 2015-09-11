@@ -1,0 +1,50 @@
+#main{
+    display:block;
+    position:relative;
+    margin: auto;
+    width:800px;
+    height:600px;
+}
+
+#level{
+    display:block;
+    position:relative;
+    width:800px;
+    height:600px;
+}
+
+#mainCanvas{
+	z-index: 1;
+	position:absolute;
+	left:0px;
+	top:0px;
+	opacity: 1;
+}
+
+#canvasText{
+    z-index: 2;
+	position:absolute;
+	left:0px;
+	top:0px;
+} 
+
+#canvasTyped{
+    z-index: 3;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+#canvasBar{
+    z-index: 4;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+#canvasStatus{
+    z-index: 5;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
